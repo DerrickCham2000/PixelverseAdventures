@@ -254,7 +254,7 @@ function getRandomSafeSpot() {
     })
 
 
-    //New - not in the video!
+    
     //This block will remove coins from local state when Firebase `coins` value updates
     onValue(allCoinsRef, (snapshot) => {
       coins = snapshot.val() || {};
